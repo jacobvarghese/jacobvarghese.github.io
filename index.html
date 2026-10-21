@@ -4,62 +4,110 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-        content="Software engineering and architecture experience.">
-  <title>Jacob | Software Engineer & Architect</title>
+        content="Jacob Varghese, Staff Software Engineer focused on enterprise application architecture and technical leadership, with experience in cloud-native systems and secure software delivery.">
+  <title>Jacob Varghese | Staff Software Engineer</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="site-controls">
+    <button class="print-button" type="button" onclick="window.print()">Print / Save as PDF</button>
+  </div>
   <main class="container">
-    <header>
-      <h1>Jacob [Last Name]</h1>
+    <div class="resume-heading">
+      <h1>Jacob Varghese</h1>
       <p class="headline">
-        Lead Software Engineer | Software Architecture |
-        Cloud-Native Systems
+        System Architect | Lead Software Engineer
       </p>
-      <p>
-        Enterprise software engineering, application security,
-        distributed systems, and AI-enabled platforms.
-      </p>
-      <nav>
-        <a href="Jacob-Resume.pdf" download>Download Résumé (PDF)</a>
-        <a href="https://www.linkedin.com/in/YOUR-PROFILE/">LinkedIn</a>
-        <a href="https://github.com/YOUR-USERNAME">GitHub</a>
+      <nav aria-label="Contact details">
+        <span>Atlanta, GA</span>
+        <span aria-hidden="true">|</span>
+        <a href="mailto:jacob.varghese@hotmail.com">jacob.varghese@hotmail.com</a>
+        <span aria-hidden="true">|</span>
+        <a href="https://www.linkedin.com/in/varghese-jacob/">LinkedIn</a>
+        <span aria-hidden="true">|</span>
+        <a href="https://github.com/jacobvarghese">GitHub</a>
       </nav>
-    </header>
+    </div>
 
-    <section>
-      <h2>Professional Summary</h2>
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading">Professional Summary</h2>
       <p>
-        Add your verified experience, technical leadership,
-        architecture responsibilities, and business impact here.
+        Software Architect and Lead Software Engineer with 15+ years of experience delivering and supporting enterprise software systems, with a focus on application architecture, system integration, and technical leadership. Experienced in guiding cross-functional teams through solution design, implementation, release, and production support while balancing reliability, maintainability, security, and delivery priorities. Background in Java-based enterprise applications, APIs, databases, and cloud-native platforms, with experience in CI/CD, application security tooling, and engineering standards. Focused on evolving enterprise systems through pragmatic architecture, secure delivery practices, and modern platform capabilities.
       </p>
     </section>
 
-    <section>
-      <h2>Core Expertise</h2>
-      <ul>
-        <li>Enterprise Software Architecture</li>
-        <li>Java and Spring Boot</li>
-        <li>Cloud-Native Systems and CI/CD</li>
-        <li>Application Security and Secure Design</li>
-        <li>Distributed Systems and Enterprise Integration</li>
-      </ul>
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Work Experience</h2>
+      <article class="position">
+        <h3>Lead Software Engineer &mdash; Spectrum</h3>
+        <p class="dates">August 2026&ndash;Present | Atlanta, Georgia</p>
+      </article>
+
+      <article class="position">
+        <h3>Lead Software Engineer | Software Architect &mdash; Cox Communications</h3>
+        <p class="dates">March 2023&ndash;August 2026 | Atlanta, Georgia</p>
+        <ul>
+          <li>Led architecture and technical delivery for a portfolio of 11 enterprise telecom applications supporting service provisioning, customer care, and carrier integrations, spanning solution design, implementation, release readiness, and production support.</li>
+          <li>Guided application modernization and deployment across a cloud-native Kubernetes platform, aligning application requirements, deployment practices, and operational constraints.</li>
+          <li>Established and maintained engineering practices across CI/CD, automated testing, code quality, and application security, using tools including Jenkins, SonarQube, Veracode, and Prisma Cloud.</li>
+          <li>Provided technical direction on application integration, API design, authentication, secrets management, and system reliability, coordinating dependencies across applications and shared services.</li>
+          <li>Partnered with product owners, architects, business stakeholders, and engineering teams to evaluate solution options, manage technical risks, and align delivery with business and enterprise standards.</li>
+          <li>Led technical reviews, troubleshooting, and release planning across development, QA, and production operations, improving visibility into dependencies and delivery risks.</li>
+          <li>Mentored engineers and coordinated cross-functional technical decisions, balancing maintainability, security, operational support, and delivery commitments.</li>
+        </ul>
+      </article>
+
+      <article class="position">
+        <h3>Senior Software Engineer | Development Lead &mdash; Cox Communications</h3>
+        <p class="dates">September 2012&ndash;February 2023 | Atlanta, Georgia</p>
+      </article>
+
+      <article class="position">
+        <h3>Software Engineer | Full-Stack Development &mdash; Spartan Resources, LLC</h3>
+        <p class="dates">March 2011&ndash;August 2012 | Atlanta, Georgia</p>
+        <ul>
+          <li>Developed Java/J2EE applications using EJB, Struts, and MVC patterns, including web services for system integration.</li>
+          <li>Built web interfaces using HTML, CSS, and JavaScript and implemented database operations against Oracle.</li>
+          <li>Deployed and maintained enterprise applications on JBoss Application Server.</li>
+        </ul>
+      </article>
     </section>
 
-    <section>
-      <h2>Professional Experience</h2>
-      <p>Add your current role, previous roles, and
-         accomplishment-focused bullet points.</p>
+    <section aria-labelledby="expertise-heading">
+      <h2 id="expertise-heading">Skills</h2>
+      <div class="expertise-list">
+        <p><strong>Architecture & Engineering:</strong> Application Architecture, System Integration, API Design, Distributed Systems Fundamentals, Technical Design Reviews, Architecture Trade-offs</p>
+        <p><strong>Cloud & Platform Engineering:</strong> Google Cloud Platform (GCP), Kubernetes, Anthos, Docker, Linux, Cloud-Native Application Deployment</p>
+        <p><strong>Application Security & DevSecOps:</strong> Secure SDLC, CI/CD Security Controls, Veracode, Prisma Cloud, SonarQube, HashiCorp Vault</p>
+        <p><strong>Backend & Web Development:</strong> Java, Spring Boot, Node.js, Python, JavaScript, TypeScript, Angular, Bash</p>
+        <p><strong>APIs & Integration:</strong> REST APIs, SOAP Web Services, OAuth 2.0, JWT, Enterprise Messaging</p>
+        <p><strong>Data & Observability:</strong> Oracle, PostgreSQL, MongoDB, Splunk</p>
+        <p><strong>Engineering Delivery:</strong> Jenkins, Automated Testing, Code Review, Release Management, Agile Delivery</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Certifications</h2>
-      <p>List relevant certifications you have earned.</p>
+    <section aria-labelledby="certifications-heading">
+      <h2 id="certifications-heading">Certifications</h2>
+      <article class="position">
+        <h3>Generative AI Leader Certification &mdash; Google</h3>
+        <p class="dates">Issued Feb 2026</p>
+      </article>
+      <article class="position">
+        <h3>Certified Information Systems Security Professional (CISSP) &mdash; ISC2</h3>
+        <p class="dates">Issued Mar 2025</p>
+      </article>
+      <article class="position">
+        <h3>Certified SAFe&reg; 5 Agilist &mdash; SAFe by Scaled Agile, Inc.</h3>
+        <p class="dates">Issued Jul 2021</p>
+      </article>
     </section>
 
-    <footer>
-      <p>Contact: YOUR-PROFESSIONAL-EMAIL</p>
-    </footer>
+    <section aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+      <article class="position">
+        <h3>The University of Tennessee at Chattanooga &mdash; Master of Science (MS), Computational Engineering</h3>
+      </article>
+    </section>
   </main>
 </body>
 </html>
